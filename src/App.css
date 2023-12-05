@@ -1,0 +1,18 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+  padding-top: 40px;
+  box-sizing: border-box;
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.title-game{
+  font-family: "Montserrat";
+  color: white;
+  font-size: 45px;
+}
+
+
