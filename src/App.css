@@ -8,11 +8,13 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  gap: 40px;
 }
 .title-game{
   font-family: "Montserrat";
   color: white;
   font-size: 45px;
+  font-weight: bold;
 }
 
 
