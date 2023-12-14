@@ -33,15 +33,17 @@
   }
 .info-turn-play{
   font-family: 'Montserrat';
-  font-size: 18px;
+  font-size: 35px;
   color: white;
   margin: 0px;
+  text-wrap: nowrap;
 }
 .info-winner{
   font-family: 'Montserrat';
   margin: 0px;
-  font-size: 22px;
-  color: white;
+  font-size: 35px;
+  font-weight: bold;
+  color: black;
 }
 
 .btn {
@@ -66,4 +68,39 @@
   color: #fff;
   background-color: #007bff;
   border-color: #007bff;
+}
+.customImg{
+  width: 45px;
+  height: 45px;
+}
+.container-player{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.container-img{
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-winner{
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.custom-img{
+  width: 55px;
+  height: 55px;
 }
